@@ -14,6 +14,34 @@ Este projeto demonstra a criação de uma API RESTful com Spring Boot. Ele inclu
 - Java 17
 - Maven 3.8.1+
 
+## Como Rodar o Projeto
+
+1. **Clone o repositório:**
+
+```bash
+git clone https://github.com/seu-usuario/my-first-web-api.git
+```
+
+2. **Navegue até o diretório do projeto:**
+
+```bash
+cd my-first-web-api
+```
+
+3. **Compile e execute o projeto usando Maven:**
+
+```bash
+mvn spring-boot:run
+```
+
+4. **Acesse a API:**
+
+Abra seu navegador e acesse `http://localhost:8080` para ver a resposta "Welcome to my Spring Boot Web API".
+
+5. **Documentação da API:**
+
+Acesse a documentação da API gerada pelo Swagger em `http://localhost:8080/swagger-ui/index.html`.
+
 ## Configuração do Projeto
 
 ### `pom.xml`
@@ -205,31 +233,3 @@ public class GlobalExceptionHandler extends ResponseEntityExceptionHandler {
     }
 }
 ```
-## Como Rodar o Projeto
-
-1. **Clone o repositório:**
-
-```bash
-git clone https://github.com/seu-usuario/my-first-web-api.git
-```
-
-2. **Navegue até o diretório do projeto:**
-
-```bash
-cd my-first-web-api
-```
-
-3. **Compile e execute o projeto usando Maven:**
-
-```bash
-mvn spring-boot:run
-```
-
-4. **Acesse a API:**
-
-Abra seu navegador e acesse `http://localhost:8080` para ver a resposta "Welcome to my Spring Boot Web API".
-
-5. **Documentação da API:**
-
-Acesse a documentação da API gerada pelo Swagger em `http://localhost:8080/swagger-ui/index.html`.
-
